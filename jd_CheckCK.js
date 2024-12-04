@@ -224,7 +224,7 @@ if ($.isNode() && process.env.CHECKCK_ALLNOTIFY) {
                         const DisableCkBody = await DisableCk(tempid);
                         if (DisableCkBody.code == 200) {
                             if ($.isNode() && WP_APP_TOKEN_ONE) {
-                                strNotifyOneTemp = `京东账号: ${$.nickName || $.UserName2} 已失效,自动禁用成功!\n</p >为了不影响您后续的正常使用请您及时重新登录</br>（扫码登录，唤醒登录，短信登录，口令登录几种方式均可）
+                                strNotifyOneTemp = `京东账号: ${$.nickName || $.UserName2} 已失效.\n</p >为了不影响您后续的正常使用请您及时重新登录</br>（扫码登录，唤醒登录，短信登录，口令登录几种方式均可）
 </h5>
 <Center><h4><a href="https://jd.chasun.top/"><p style="color:red; font-size:17px;">-\\\点此处快速登录///-</a><Center>
 <br>
